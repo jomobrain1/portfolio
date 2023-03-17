@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "Mega Menu",
+    "about": "mega menu",
+    "link": "https://jsbits-megamenu.netlify.app/",
+    "image": "./projects/images/js/megamenu.png",
+    "filter": "js",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 2,
+    "title": "HTML/JS Compiler",
+    "about": "this is the about",
+    "link": "https://jsbits-compiler.netlify.app/",
+    "image": "./projects/images/js/compiler.png",
+    "filter": "js",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 3,
+    "image": "./projects/images/js/suluhisho.png",
+    "filter": "js",
+    "title": "Suluhisho TTI",
+    "about": "suluhisho",
+    "link": "https://suluhisho.netlify.app/",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 4,
+    "image": "./projects/images/js/carousel.png",
+    "filter": "js",
+    "title": "Image Carousel",
+    "about": "suluhisho",
+    "link": "https://jsbits-simple-image-carousel.netlify.app/",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 5,
+    "image": "./projects/images/js/filter.png",
+    "filter": "js",
+    "title": "Search Filter app",
+    "about": "filter",
+    "link": "https://jsbits-filter-search.netlify.app/",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 6,
+    "image": "./projects/images/js/stickynav.png",
+    "filter": "js",
+    "title": "Sticky Navbar",
+    "about": "filter",
+    "link": "https://jsbits-sticky-nav.netlify.app/",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 7,
+    "image": "./projects/images/js/calculator.png",
+    "filter": "js",
+    "title": "Calculator",
+    "about": "calculator",
+    "link": "https://jsbits-calculator.netlify.app/",
+    "github":"https://github.com/jomobrain1/jsbits"
+  },
+  {
+    "id": 7,
+    "image": "./projects/images/js/animatedcube.png",
+    "filter": "js",
+    "title": "Animated Cube",
+    "about": "Animated Cube",
+    "link": "https://jsbits-animated-card.netlify.app/",
+    "github":"https://github.com/jomobrain1/jsbits/tree/main/animated-cube"
+  },
+  {
+    "id": 8,
+    "image": "./projects/images/js/foodboo.png",
+    "filter": "vue",
+    "title": "Meals Api",
+    "about": "Meals Api",
+    "link": "https://foodboo.netlify.app/",
+    "github":"https://github.com/jomobrain1/FoodBoo"
+  },
+  {
+    "id": 8,
+    "image": "./projects/images/vue/vuenav.png",
+    "filter": "vue",
+    "title": "Vue Responsive Navbar",
+    "about": "Vue Responsive Navbar",
+    "link": "https://vuenav.netlify.app/",
+    "github":"https://github.com/jomobrain1/vue-nav"
+  },
+  {
+    "id": 9,
+    "image": "./projects/images/js/cyton.png",
+    "filter": "vue",
+    "title": "Covid Api",
+    "about": "Covid Api",
+    "link": "https://cytonjomo.netlify.app/",
+    "github":"https://github.com/jomobrain1/cytonn_assignment"
+  },
+  {
+    "id": 9,
+    "image": "./projects/images/js/codingmall.png",
+    "filter": "vue",
+    "title": "CodingMall",
+    "about": "CodingMall",
+    "link": "https://thecodingmall.netlify.app/",
+    "github":"https://github.com/jomobrain1"
+  },
+  {
+    "id": 10,
+    "image": "./projects/images/css/dashboard.png",
+    "filter": "tailwind",
+    "title": "Tailwind Dashboard",
+    "about": "Tailwind",
+    "link": "https://jsbits-tailwind-admin-dashboard.netlify.app/",
+    "github":"https://github.com/jomobrain1/tailwind-dashboard"
+  },
+  {
+    "id": 11,
+    "image": "./projects/images/js/colorcss.png",
+    "filter": "chrome",
+    "title": "chrome extension",
+    "about": "chrome extension",
+    "link": "https://chrome.google.com/webstore/detail/color-css/adlacpihapeklogkiembneaaaabciaio",
+    "github":"https://github.com/jomobrain1/color-css"
+  },
+  {
+    "id": 12,
+    "image": "./projects/images/flutter/socioapp.jpg",
+    "filter": "flutter",
+    "title": "Flutter social media app",
+    "about": "Flutter social media app",
+    "link": "https://github.com/jomobrain1/socioApp",
+    "github":"https://github.com/jomobrain1/socioApp"
+  },
+  {
+    "id": 13,
+    "image": "./projects/images/flutter/flutterphp.png",
+    "filter": "flutter",
+    "title": "Flutter & php crud",
+    "about": "Flutter & php crud",
+    "link": "https://github.com/jomobrain1/Flutter_php",
+    "github":"https://github.com/jomobrain1/Flutter_php"
+  },
+  {
+    "id": 13,
+    "image": "./projects/images/php/phpblog.png",
+    "filter": "php",
+    "title": "php blog",
+    "about": "php blog",
+    "link": "https://jomo-blog.000webhostapp.com/",
+    "github":"https://github.com/jomobrain1/php-blog"
+  },
+  {
+    "id": 13,
+    "image": "./projects/images/php/library.png",
+    "filter": "php",
+    "title": "library management system",
+    "about": "library management system",
+    "link": "http://phpblog.epizy.com",
+    "github":"https://github.com/jomobrain1/lms"
+  },
+  {
+    "id": 13,
+    "image": "./projects/images/php/laravel.png",
+    "filter": "laravel",
+    "title": "laravel blog api",
+    "about": "laravel blog api",
+    "link": "https://github.com/jomobrain1/blog_api",
+    "github":"https://github.com/jomobrain1/blog_api"
+  }
+  
+  
+  
+  
+]

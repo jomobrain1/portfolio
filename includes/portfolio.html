@@ -1,0 +1,174 @@
+<body>
+  <section id="myprojects">
+    
+    <div class="myprojects">
+      <section class="filter-header" id="pr">
+      
+      </section>
+
+      <section class="project-row" id="projects"></section>
+    </div>
+  </section>
+ 
+</body>
+
+<style>
+  #myprojects{
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  .project-row {
+    text-align: center;
+    width: 100%;
+  }
+  .project-item {
+    color: steelblue;
+    font-size: 17px;
+    border: 2px solid #16b5ef;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 8px 20px 8px 20px;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+  }
+  .project-item.active {
+    color: white;
+    border-color: #16b5ef;
+    background: #16b5ef;
+  }
+  .show {
+    animation: fadeIn 0.5s ease;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .hide {
+    display: none;
+  }
+  .myprojects {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .project-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .project-row > * {
+    flex-basis: 30%;
+    min-width: 15rem;
+    border: 2px solid  slategray;
+    padding: 2px 3px;
+  }
+  .filter-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-container {
+    max-width: 1170px;
+    margin: auto;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  .gallery .gallery-filter {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .gallery .gallery-filter .filter-item {
+    color: steelblue;
+    font-size: 17px;
+    border: 2px solid #16b5ef;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 8px 20px 8px 20px;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+  }
+  .gallery .gallery-filter .filter-item.active {
+    color: white;
+    border-color: #16b5ef;
+    background: #16b5ef;
+  }
+  .gallery .gallery-item {
+    width: calc(100% / 3);
+    padding: 15px;
+  }
+  .overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay1 {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-project {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(35, 35, 35, 0.7);
+    display: none;
+  }
+
+  .overlay:hover .about-project {
+    display: flex;
+  }
+
+  .about-title {
+    font-size: 17px;
+  }
+
+  .about-btn {
+    background-color: #fff;
+    color: #16b5ef;
+    font-weight: 900;
+    margin: 10px 0px;
+    padding: 3px 10px;
+  }
+
+  /*responsive*/
+  @media (max-width: 491px) {
+    .gallery .gallery-item {
+      width: 50%;
+    }
+  }
+  @media (max-width: 467px) {
+    .gallery .gallery-item {
+      width: 100%;
+    }
+    .gallery .gallery-filter .filter-item {
+      margin-bottom: 10px;
+    }
+  }
+</style>
