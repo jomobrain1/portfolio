@@ -9,6 +9,7 @@ export function fetchItems() {
         data.forEach((result) => {
           let html = `<div class="project-filter-item ${result.filter}">
             <section class="overlay">
+              
               <div class="gallery-item-inner">
                 <section class="fetched-img">
                 <p>${result.title}</p>
@@ -29,9 +30,11 @@ export function fetchItems() {
   }, 500);
 }
 
-{
-  /* <img
-src="${result.image}"
-alt="image"
-/> */
-}
+
+// to show image
+{/* <div class="gallery-item-inner">
+                <img
+                  src="${result.image}"
+                  alt="image"
+                />
+              </div> */}
