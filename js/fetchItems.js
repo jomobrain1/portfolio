@@ -10,10 +10,9 @@ export function fetchItems() {
           let html = `<div class="project-filter-item ${result.filter}">
             <section class="overlay">
               <div class="gallery-item-inner">
-                <img
-                  src="${result.image}"
-                  alt="image"
-                />
+                <section class="fetched-img">
+                <p>${result.title}</p>
+                </section>
               </div>
               <div class="about-project">
                 <h3 class="about-title">${result.title}</h3>
@@ -28,4 +27,11 @@ export function fetchItems() {
         });
       });
   }, 500);
+}
+
+{
+  /* <img
+src="${result.image}"
+alt="image"
+/> */
 }
