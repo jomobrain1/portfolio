@@ -1,8 +1,5 @@
 import { myapp } from "./app.js";
-import  {filter} from "./filter.js"
-import { fetchItems } from "./fetchItems.js";
 import { includes_urls } from "./url.js";
-filter()
 
 let mainhome = document.querySelector("#mainhome");
 let mainheader = document.querySelector("#mainheader");
@@ -14,7 +11,7 @@ let mainportfolio = document.querySelector("#mainportfolio");
 let mainnewproject = document.querySelector("#mainnewproject");
 let maincontact = document.querySelector("#maincontact");
 let mainfooter = document.querySelector("#mainfooter");
-let portfolioheader=document.querySelector("#portfolioheader")
+let portfolioheader = document.querySelector("#portfolioheader");
 
 Promise.all(includes_urls.map((url) => fetch(url).then((resp) => resp.text()))).then(
   (texts) => {
@@ -28,15 +25,11 @@ Promise.all(includes_urls.map((url) => fetch(url).then((resp) => resp.text()))).
     mainnewproject.innerHTML = texts[7];
     maincontact.innerHTML = texts[8];
     mainfooter.innerHTML = texts[9];
-    portfolioheader.innerHTML=texts[10]
-    const parser=new DOMParser()
-    const doc=parser.parseFromString(texts[6],"text/html")
-    eval(doc.querySelector("script").textContent)
+    portfolioheader.innerHTML = texts[10];
   }
 );
 
 
 setTimeout(() => {
- fetchItems()
- myapp() 
-},700);
+  myapp();
+}, 700);

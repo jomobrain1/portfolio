@@ -1,43 +1,82 @@
 <body>
   <section id="myprojects">
-    
     <div class="myprojects">
-      <section class="filter-header" id="pr">
-      
-      </section>
+      <section class="project-row" id="projects">
+        <div class="project-filter-item project-card">
+          <div class="project-image-wrap">
+            <img class="project-image" src="./projects/images/mern/notely.png" alt="Notely project preview" />
+          </div>
+          <div class="project-content">
+            <h3 class="about-title">Notely</h3>
+            <p class="project-description">
+              A full-stack MERN notes app with authentication, protected routes, and a clean dashboard for creating, editing, and deleting notes.
+            </p>
+            <div class="links">
+              <a class="about-btn" href="https://notely-frontend-sepia.vercel.app/" target="_blank" rel="noopener noreferrer">Preview</a>
+              <a class="about-btn" href="https://github.com/jomobrain1/notely" target="_blank" rel="noopener noreferrer">Git</a>
+            </div>
+          </div>
+        </div>
 
-      <section class="project-row" id="projects"></section>
+        <div class="project-filter-item project-card">
+          <div class="project-image-wrap">
+            <img class="project-image" src="./projects/images/js/colorcss.png" alt="Color CSS chrome extension preview" />
+          </div>
+          <div class="project-content">
+            <h3 class="about-title">Color CSS</h3>
+            <p class="project-description">
+              A Chrome extension with over 100 users that helps developers inspect and work faster with color and CSS values directly in the browser.
+            </p>
+            <div class="links">
+              <a class="about-btn" href="https://chromewebstore.google.com/detail/color-css/adlacpihapeklogkiembneaaaabciaio" target="_blank" rel="noopener noreferrer">Preview</a>
+              <a class="about-btn" href="https://github.com/jomobrain1/color-css" target="_blank" rel="noopener noreferrer">Git</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-filter-item project-card">
+          <div class="project-image-wrap">
+            <img class="project-image" src="./projects/images/flutter/socioapp.jpg" alt="SocioApp mobile app preview" />
+          </div>
+          <div class="project-content">
+            <h3 class="about-title">SocioApp</h3>
+            <p class="project-description">
+              A Flutter social media app powered by a Laravel API where users can create accounts, update profiles, publish posts, and comment on posts.
+            </p>
+            <div class="links">
+              <a class="about-btn" href="https://github.com/jomobrain1/socioApp" target="_blank" rel="noopener noreferrer">Preview</a>
+              <a class="about-btn" href="https://github.com/jomobrain1/socioApp" target="_blank" rel="noopener noreferrer">Git</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-filter-item project-card">
+          <div class="project-image-wrap">
+            <img class="project-image" src="./projects/images/css/dashboard.png" alt="Tailwind admin dashboard preview" />
+          </div>
+          <div class="project-content">
+            <h3 class="about-title">Tailwind Admin Dashboard</h3>
+            <p class="project-description">
+              A clean admin dashboard built with Tailwind CSS for presenting analytics, management views, and responsive interface components.
+            </p>
+            <div class="links">
+              <a class="about-btn" href="https://jsbits-tailwind-admin-dashboard.netlify.app/" target="_blank" rel="noopener noreferrer">Preview</a>
+              <a class="about-btn" href="https://github.com/jomobrain1/tailwind-dashboard" target="_blank" rel="noopener noreferrer">Git</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
- 
 </body>
 
 <style>
   #myprojects{
-    max-height: 400px;
-    overflow-y: scroll;
+    overflow: visible;
   }
   .project-row {
     text-align: center;
     width: 100%;
-  }
-  .project-item {
-    color: steelblue;
-    font-size: 17px;
-    border: 2px solid #16b5ef;
-    text-transform: uppercase;
-    display: inline-block;
-    border-radius: 20px;
-    margin-right: 8px;
-    cursor: pointer;
-    padding: 8px 20px 8px 20px;
-    line-height: 1.2;
-    transition: all 0.3s ease;
-  }
-  .project-item.active {
-    color: white;
-    border-color: #16b5ef;
-    background: #16b5ef;
   }
   .show {
     animation: fadeIn 0.5s ease;
@@ -59,116 +98,101 @@
   }
   .project-row {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 14px 10px;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.1em;
   }
   .project-row > * {
     flex-basis: 30%;
-    min-width: 15rem;
+    min-width: 18rem;
     border: 2px solid  slategray;
-    padding: 2px 3px;
+    padding: 0;
   }
-  .filter-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .projects-container {
-    max-width: 1170px;
-    margin: auto;
-  }
-
   img {
     max-width: 100%;
     vertical-align: middle;
   }
 
-  .gallery .gallery-filter {
-    padding: 0 15px;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  .gallery .gallery-filter .filter-item {
-    color: steelblue;
-    font-size: 17px;
-    border: 2px solid #16b5ef;
-    text-transform: uppercase;
-    display: inline-block;
-    border-radius: 20px;
-    margin-right: 8px;
-    cursor: pointer;
-    padding: 8px 20px 8px 20px;
-    line-height: 1.2;
-    transition: all 0.3s ease;
-  }
-  .gallery .gallery-filter .filter-item.active {
-    color: white;
-    border-color: #16b5ef;
-    background: #16b5ef;
-  }
-  .gallery .gallery-item {
-    width: calc(100% / 3);
-    padding: 15px;
-  }
-  .overlay {
-    position: relative;
-    overflow: hidden;
-  }
-  .overlay1 {
-    position: relative;
-    overflow: hidden;
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align: left;
   }
 
-  .about-project {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fff;
-    width: 100%;
-    height: 100%;
+  .project-image-wrap {
+    height: 180px;
+    overflow: hidden;
+    border-bottom: 2px solid slategray;
+    background: rgba(70, 130, 180, 0.08);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background: rgba(35, 35, 35, 0.7);
-    display: none;
+    padding: 0.5rem;
   }
 
-  .overlay:hover .about-project {
-    display: flex;
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center top;
+    display: block;
+  }
+
+  .project-content {
+    padding: 0.85rem;
   }
 
   .about-title {
     font-size: 17px;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-description {
+    padding: 0;
+    margin: 0 0 0.85rem;
+    line-height: 1.45;
+  }
+
+  .links {
+    width: 100%;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
   }
 
   .about-btn {
     background-color: #fff;
     color: #16b5ef;
     font-weight: 900;
-    margin: 10px 0px;
-    padding: 3px 10px;
+    margin: 0;
+    padding: 8px 14px;
+    text-decoration: none;
+    border: 1px solid #16b5ef;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90px;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
   }
 
-  /*responsive*/
-  @media (max-width: 491px) {
-    .gallery .gallery-item {
-      width: 50%;
-    }
+  .about-btn:hover {
+    background-color: #16b5ef;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(22, 181, 239, 0.2);
   }
-  @media (max-width: 467px) {
-    .gallery .gallery-item {
-      width: 100%;
-    }
-    .gallery .gallery-filter .filter-item {
-      margin-bottom: 10px;
+
+  .about-btn:focus-visible {
+    outline: 2px solid #16b5ef;
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 768px) {
+    .project-row > * {
+      flex-basis: 100%;
     }
   }
 </style>
